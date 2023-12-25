@@ -29,7 +29,7 @@ int main(int args, char **argv) {
     HRAC hraciData[pocetHracov];
     for (int i = 0; i < pocetHracov; ++i) {
         hraciData[i].id = i;
-        hraciData[i].pocetHracov = pocetHracov;
+        hraciData[i].pocetOtazok = pocetOtazok;
         hraciData[i].mutexPrihlasenie = mutexPrihlasenie;
         hraciData[i].condOtazka = condOtazka;
         hraciData[i].condOdhlasovane = condOdhlasovane;

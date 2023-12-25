@@ -9,7 +9,7 @@
 typedef struct Moderator {
     int pocetOtazok;
     int pocetHracov;
-    pthread_t mutexPrihlasenie;
+    pthread_mutex_t mutexPrihlasenie;
     pthread_cond_t condOtazka;
     pthread_cond_t condOdhlasovane;
 } MODERATOR;
