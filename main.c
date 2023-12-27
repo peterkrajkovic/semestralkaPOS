@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <pthread.h>
 #include <stdlib.h>
-#include "hrac.h"
-#include "moderator.h"
+#include "klient/hrac.h"
+#include "server/moderator.h"
 #include "kviz.h"
 
 int main(int args, char **argv) {

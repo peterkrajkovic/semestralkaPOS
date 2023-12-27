@@ -6,8 +6,8 @@
 #include "moderator.h"
 
 
-void *moderuj(void *data) {
-    MODERATOR *d = (MODERATOR *)data;
+void* moderuj(void* data) {
+    MODERATOR* d = (MODERATOR*)data;
     printf("Zacina sa kviz. Dnes tu mame %d hracov. \n", d->pocetHracov);
     printf("Odpovedat budu na %d otazok. \n", d->pocetOtazok);
     for (int i = 0; i < d->pocetOtazok; i++) {

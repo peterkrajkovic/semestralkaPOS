@@ -4,8 +4,8 @@
 
 #include "hrac.h"
 
-void* hraj(void* data){
-    HRAC *d = (HRAC *)data;
+void* hraj(void* data) {
+    HRAC* d = (HRAC*)data;
     for (int i = 0; i < d->pocetOtazok; i++) {
         pthread_mutex_lock(&d->mutexPrihlasenie);
         //otazka neni pripravena
@@ -19,4 +19,9 @@ void* hraj(void* data){
         pthread_cond_signal(&d->condOdhlasovane);
         pthread_mutex_unlock(&d->mutexPrihlasenie);
     }
+    return NULL;
+}
+
+int main(int argc, char** argv) {
+
 }
