@@ -8,9 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/hrac.c" "CMakeFiles/semestralka.dir/hrac.c.obj" "gcc" "CMakeFiles/semestralka.dir/hrac.c.obj.d"
   "C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/main.c" "CMakeFiles/semestralka.dir/main.c.obj" "gcc" "CMakeFiles/semestralka.dir/main.c.obj.d"
-  "C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/moderator.c" "CMakeFiles/semestralka.dir/moderator.c.obj" "gcc" "CMakeFiles/semestralka.dir/moderator.c.obj.d"
+  "C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/server/moderator.c" "CMakeFiles/semestralka.dir/server/moderator.c.obj" "gcc" "CMakeFiles/semestralka.dir/server/moderator.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(semestralka main.c server/moderator.c
         server/moderator.h
-        kviz.h)
+        kviz.h
+        klient/sockety/klient_socket.h)

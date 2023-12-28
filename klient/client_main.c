@@ -4,9 +4,10 @@
 
 #include <pthread.h>
 #include "hrac.h"
+#include "sockety/klient_socket.h"
+
 
 int main(int argc, char** argv) {
-    HRAC hracData = {};
-    pthread_t hracThread;
+
     return 0;
 }

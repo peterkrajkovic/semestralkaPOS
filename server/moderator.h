@@ -14,6 +14,6 @@ typedef struct Moderator {
     pthread_cond_t condOdhlasovane;
 } MODERATOR;
 
-void *moderuj(void* data);
+void* moderuj(void* data);
 
 #endif //MODERATOR_H

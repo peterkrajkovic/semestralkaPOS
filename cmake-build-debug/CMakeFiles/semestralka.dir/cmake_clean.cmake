@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/semestralka.dir/hrac.c.obj"
-  "CMakeFiles/semestralka.dir/hrac.c.obj.d"
   "CMakeFiles/semestralka.dir/main.c.obj"
   "CMakeFiles/semestralka.dir/main.c.obj.d"
-  "CMakeFiles/semestralka.dir/moderator.c.obj"
-  "CMakeFiles/semestralka.dir/moderator.c.obj.d"
+  "CMakeFiles/semestralka.dir/server/moderator.c.obj"
+  "CMakeFiles/semestralka.dir/server/moderator.c.obj.d"
   "libsemestralka.dll.a"
   "semestralka.exe"
   "semestralka.exe.manifest"

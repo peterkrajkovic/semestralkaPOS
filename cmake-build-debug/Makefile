@@ -128,30 +128,6 @@ semestralka/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/build
 .PHONY : semestralka/fast
 
-hrac.obj: hrac.c.obj
-.PHONY : hrac.obj
-
-# target to build an object file
-hrac.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/hrac.c.obj
-.PHONY : hrac.c.obj
-
-hrac.i: hrac.c.i
-.PHONY : hrac.i
-
-# target to preprocess a source file
-hrac.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/hrac.c.i
-.PHONY : hrac.c.i
-
-hrac.s: hrac.c.s
-.PHONY : hrac.s
-
-# target to generate assembly for a file
-hrac.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/hrac.c.s
-.PHONY : hrac.c.s
-
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -176,29 +152,29 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/main.c.s
 .PHONY : main.c.s
 
-moderator.obj: moderator.c.obj
-.PHONY : moderator.obj
+server/moderator.obj: server/moderator.c.obj
+.PHONY : server/moderator.obj
 
 # target to build an object file
-moderator.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/moderator.c.obj
-.PHONY : moderator.c.obj
+server/moderator.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/server/moderator.c.obj
+.PHONY : server/moderator.c.obj
 
-moderator.i: moderator.c.i
-.PHONY : moderator.i
+server/moderator.i: server/moderator.c.i
+.PHONY : server/moderator.i
 
 # target to preprocess a source file
-moderator.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/moderator.c.i
-.PHONY : moderator.c.i
+server/moderator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/server/moderator.c.i
+.PHONY : server/moderator.c.i
 
-moderator.s: moderator.c.s
-.PHONY : moderator.s
+server/moderator.s: server/moderator.c.s
+.PHONY : server/moderator.s
 
 # target to generate assembly for a file
-moderator.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/moderator.c.s
-.PHONY : moderator.c.s
+server/moderator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\semestralka.dir\build.make CMakeFiles/semestralka.dir/server/moderator.c.s
+.PHONY : server/moderator.c.s
 
 # Help Target
 help:
@@ -209,15 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... semestralka
-	@echo ... hrac.obj
-	@echo ... hrac.i
-	@echo ... hrac.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... moderator.obj
-	@echo ... moderator.i
-	@echo ... moderator.s
+	@echo ... server/moderator.obj
+	@echo ... server/moderator.i
+	@echo ... server/moderator.s
 .PHONY : help
 
 

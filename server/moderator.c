@@ -7,7 +7,7 @@
 
 
 void* moderuj(void* data) {
-    MODERATOR* d = (MODERATOR*)data;
+    MODERATOR* d = (MODERATOR*) data;
     printf("Zacina sa kviz. Dnes tu mame %d hracov. \n", d->pocetHracov);
     printf("Odpovedat budu na %d otazok. \n", d->pocetOtazok);
     for (int i = 0; i < d->pocetOtazok; i++) {
@@ -17,4 +17,5 @@ void* moderuj(void* data) {
 
         pthread_mutex_unlock(&d->mutexPrihlasenie);
     }
+    return NULL;
 }

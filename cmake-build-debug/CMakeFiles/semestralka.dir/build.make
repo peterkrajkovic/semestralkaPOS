@@ -82,51 +82,35 @@ CMakeFiles/semestralka.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/semestralka.dir/main.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\main.c -o CMakeFiles\semestralka.dir\main.c.s
 
-CMakeFiles/semestralka.dir/hrac.c.obj: CMakeFiles/semestralka.dir/flags.make
-CMakeFiles/semestralka.dir/hrac.c.obj: C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/hrac.c
-CMakeFiles/semestralka.dir/hrac.c.obj: CMakeFiles/semestralka.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/semestralka.dir/hrac.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/semestralka.dir/hrac.c.obj -MF CMakeFiles\semestralka.dir\hrac.c.obj.d -o CMakeFiles\semestralka.dir\hrac.c.obj -c C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\hrac.c
+CMakeFiles/semestralka.dir/server/moderator.c.obj: CMakeFiles/semestralka.dir/flags.make
+CMakeFiles/semestralka.dir/server/moderator.c.obj: C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/server/moderator.c
+CMakeFiles/semestralka.dir/server/moderator.c.obj: CMakeFiles/semestralka.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/semestralka.dir/server/moderator.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/semestralka.dir/server/moderator.c.obj -MF CMakeFiles\semestralka.dir\server\moderator.c.obj.d -o CMakeFiles\semestralka.dir\server\moderator.c.obj -c C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\server\moderator.c
 
-CMakeFiles/semestralka.dir/hrac.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/semestralka.dir/hrac.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\hrac.c > CMakeFiles\semestralka.dir\hrac.c.i
+CMakeFiles/semestralka.dir/server/moderator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/semestralka.dir/server/moderator.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\server\moderator.c > CMakeFiles\semestralka.dir\server\moderator.c.i
 
-CMakeFiles/semestralka.dir/hrac.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/semestralka.dir/hrac.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\hrac.c -o CMakeFiles\semestralka.dir\hrac.c.s
-
-CMakeFiles/semestralka.dir/moderator.c.obj: CMakeFiles/semestralka.dir/flags.make
-CMakeFiles/semestralka.dir/moderator.c.obj: C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/moderator.c
-CMakeFiles/semestralka.dir/moderator.c.obj: CMakeFiles/semestralka.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/semestralka.dir/moderator.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/semestralka.dir/moderator.c.obj -MF CMakeFiles\semestralka.dir\moderator.c.obj.d -o CMakeFiles\semestralka.dir\moderator.c.obj -c C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\moderator.c
-
-CMakeFiles/semestralka.dir/moderator.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/semestralka.dir/moderator.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\moderator.c > CMakeFiles\semestralka.dir\moderator.c.i
-
-CMakeFiles/semestralka.dir/moderator.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/semestralka.dir/moderator.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\moderator.c -o CMakeFiles\semestralka.dir\moderator.c.s
+CMakeFiles/semestralka.dir/server/moderator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/semestralka.dir/server/moderator.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\server\moderator.c -o CMakeFiles\semestralka.dir\server\moderator.c.s
 
 # Object files for target semestralka
 semestralka_OBJECTS = \
 "CMakeFiles/semestralka.dir/main.c.obj" \
-"CMakeFiles/semestralka.dir/hrac.c.obj" \
-"CMakeFiles/semestralka.dir/moderator.c.obj"
+"CMakeFiles/semestralka.dir/server/moderator.c.obj"
 
 # External object files for target semestralka
 semestralka_EXTERNAL_OBJECTS =
 
 semestralka.exe: CMakeFiles/semestralka.dir/main.c.obj
-semestralka.exe: CMakeFiles/semestralka.dir/hrac.c.obj
-semestralka.exe: CMakeFiles/semestralka.dir/moderator.c.obj
+semestralka.exe: CMakeFiles/semestralka.dir/server/moderator.c.obj
 semestralka.exe: CMakeFiles/semestralka.dir/build.make
 semestralka.exe: CMakeFiles/semestralka.dir/linkLibs.rsp
 semestralka.exe: CMakeFiles/semestralka.dir/objects1.rsp
 semestralka.exe: CMakeFiles/semestralka.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable semestralka.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\matdz\Documents\ŠKOLA\UNIZA\3.Bc\ZS\POS\SP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable semestralka.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\semestralka.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

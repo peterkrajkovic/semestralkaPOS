@@ -76,10 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/hrac.c">
-			<Option target="semestralka"/>
-		</Unit>
-		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/hrac.h">
+		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/klient/sockety/klient_socket.h">
 			<Option target="semestralka"/>
 		</Unit>
 		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/kviz.h">
@@ -88,10 +85,10 @@
 		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/main.c">
 			<Option target="semestralka"/>
 		</Unit>
-		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/moderator.c">
+		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/server/moderator.c">
 			<Option target="semestralka"/>
 		</Unit>
-		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/moderator.h">
+		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/server/moderator.h">
 			<Option target="semestralka"/>
 		</Unit>
 		<Unit filename="C:/Users/matdz/Documents/ŠKOLA/UNIZA/3.Bc/ZS/POS/SP/CMakeLists.txt">
