@@ -19,7 +19,5 @@ int main(int argc, char** argv) {
     passive_socket_init(&passiveSocket);
     passive_socket_start_listening(&passiveSocket, 12345);
 
-
-
     return 0;
 }
